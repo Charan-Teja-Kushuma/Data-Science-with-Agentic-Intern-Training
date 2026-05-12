@@ -1,12 +1,15 @@
 def ExpenseManager(Amount,StudentName):
     
     Expense= {
-        "Amount" : Amount1,
-        "StudentName" : StudentName1
+        "Amount": Amount,
+        "StudentName": StudentName
     }
     return Expense
      
 Amount1 = input("Enter the amount you spend on this month: ")
 StudentName1 = input("Enter your name: ")
-x = ExpenseManager(Amount1,StudentName1)
+print(Amount1,StudentName1)
+
+x = ExpenseManager(Amount,StudentName)
 print(x)
+
