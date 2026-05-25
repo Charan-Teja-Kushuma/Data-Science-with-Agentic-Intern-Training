@@ -1,12 +1,7 @@
-def ExpenseManager(Amount,StudentName):
-    
-    Expense= {
-        "Amount" : Amount1,
-        "StudentName" : StudentName1
-    }
-    return Expense
-     
-Amount1 = input("Enter the amount you spend on this month: ")
-StudentName1 = input("Enter your name: ")
-x = ExpenseManager(Amount1,StudentName1)
-print(x)
+def ExpenseManager():
+    print("Welcome to the Student Expense Manager!")
+ExpenseManager()
+
+Amount = input("Enter the amount you spend on this month: ")
+StudentName = input("Enter your name: ")
+print("Hello " + StudentName + "! You have spent $" + Amount + " this month.")
